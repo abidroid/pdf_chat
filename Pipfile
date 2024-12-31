@@ -6,11 +6,11 @@ name = "pypi"
 [packages]
 streamlit = "*"
 langchain = "*"
-chromadb = "*"
 pypdf = "*"
 openai = "*"
 langchain-community = "*"
 python-dotenv = "*"
+faiss-cpu = "*"
 
 [dev-packages]
 
