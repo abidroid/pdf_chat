@@ -2,6 +2,8 @@ import streamlit as st
 from dotenv import load_dotenv
 from pypdf import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.vectorstores import FAISS
 
 load_dotenv()
 st.set_page_config(page_title="Ask your PDF")
