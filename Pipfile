@@ -11,6 +11,7 @@ openai = "*"
 langchain-community = "*"
 python-dotenv = "*"
 faiss-cpu = "*"
+tiktoken = "*"
 
 [dev-packages]
 
